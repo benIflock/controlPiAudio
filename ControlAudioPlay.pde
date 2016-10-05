@@ -78,8 +78,7 @@ void p1OSC(String command, String file){
     println("play");
     p1.pause(true);
     s2 =  SampleManager.sample(dataPath(file));
-p1.setSample(s1);
-p1.setToLoopStart();
+p1.setSample(s2);
 p1.pause(false);
   }else if(command.equals("s")){
   p1.pause(true);
